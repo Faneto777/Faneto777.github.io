@@ -1,66 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Vicente Zapata</title>
+    <link rel="stylesheet" href="css/output.css">
 </head>
-<body>
-        <nav>
-    <ul>
-        <li><a href="#Sobre-mí">Sobre mí</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-        <li><a href="#contactos">Contactos</a></li>
-    </ul>
-        </nav>
-    <header>
-        <h1>Vicente Ignacio Zapata Muñoz</h1>
-        <section id="Sobre-mí">
-        <h2>Sobre mí</h2>
-        </section>
-        <p>Hola mi nombre es vicente zapata programador web, orientado principalmente en solucionar 
-        problemas, erorres y a la escritura de codigo limpio y bien estructurado.
-        Tengo experiencia en HTML, CSS java y python
-        </p>
-        
-        <p>Uno de mis principales objetivos es poder realizar mi propia pagina web 
-            y aprender cosas nuevas para poder seguir creciendo profesionalmente
-        </p>
+<body class="bg-white text-black p-6 max-w-2xl mx-auto font-sans">
 
-        <h2>Habilidades</h2>
-        <ul>
-            <li>• HTML</li>
-            <li>• CSS</li>
-            <li>• Java</li>
-            <li>• Python</li>
-
+    <!-- Navegación -->
+    <nav class="mb-8 border-b pb-4">
+        <ul class="flex gap-4 font-semibold">
+            <li><a href="#Sobre-mí" class="hover:underline">Sobre mí</a></li>
+            <li><a href="#proyectos" class="hover:underline">Proyectos</a></li>
+            <li><a href="#contactos" class="hover:underline">Contactos</a></li>
         </ul>
+    </nav>
 
-        <h2>Educacion</h2>
-            <ul>
-            <li>• Enseñanza basica: </li>
-            <li>• Enseñanza media:</li>
-            <li>• Enseñanza superior:</li>
-            </ul>
-
-    <section id="proyectos">
-        <h2>Proyectos</h2>
+    <!-- Encabezado -->
+    <header class="mb-6">
+        <h1 class="text-3xl font-bold mb-4">Vicente Ignacio Zapata Muñoz</h1>
+        
+        <section id="Sobre-mí" class="mb-4">
+            <h2 class="text-xl font-bold mb-2 border-b">Sobre mí</h2>
+            <p class="text-lg mb-2">
+                Hola, mi nombre es Vicente Zapata, programador web orientado principalmente a solucionar problemas, errores y a la escritura de código limpio y bien estructurado. Tengo experiencia en HTML, CSS, Java y Python.
+            </p>
+            <p class="text-gray-700">
+                Uno de mis principales objetivos es poder realizar mi propia página web y aprender cosas nuevas para seguir creciendo profesionalmente.
+            </p>
         </section>
+    </header>
 
-    <section id="Contactos">
-        <h2>Contactos</h2>
-        <ul>
+    <!-- Habilidades -->
+    <section class="mb-6">
+        <h2 class="text-xl font-bold mb-2 border-b">Habilidades</h2>
+        <ul class="list-disc list-inside space-y-1">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <!-- Educación -->
+    <section class="mb-6">
+        <h2 class="text-xl font-bold mb-2 border-b">Educación</h2>
+        <ul class="list-disc list-inside space-y-1">
+            <li><strong>Enseñanza básica:</strong> Completa</li>
+            <li><strong>Enseñanza media:</strong> Completa</li>
+            <li><strong>Enseñanza superior:</strong> Actual</li>
+        </ul>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="mb-6">
+        <h2 class="text-xl font-bold mb-2 border-b">Proyectos</h2>
+        <p class="text-gray-600 italic">En desarrollo...</p>
+    </section>
+
+    <!-- Contactos -->
+    <section id="contactos" class="mb-6">
+        <h2 class="text-xl font-bold mb-2 border-b">Contactos</h2>
+        <ul class="space-y-2">
             <li>
-                <strong>Corre:</strong>
-                <a href="mailto:vicentezm437@gmail.com">vicentezm437@gmail.com</a>
+                <strong>Correo:</strong>
+                <a href="mailto:vicentezm437@gmail.com" class="text-blue-600 underline">vicentezm437@gmail.com</a>
             </li>
             <li>
                 <strong>GitHub:</strong>
-                <a href="https://github.com/Faneto777" target="_blank">github.com/Faneto777</a>
+                <a href="https://github.com/Faneto777" target="_blank" class="text-blue-600 underline">github.com/Faneto777</a>
             </li>
             <li>
-                <strong>Telefono:</strong>
-                <a href="tel:+56952030071">+56 9 5203 0071</a>
+                <strong>Teléfono:</strong>
+                <a href="tel:+56952030071" class="text-blue-600 underline">+56 9 5203 0071</a>
             </li>
         </ul>
     </section>
+
 </body>
 </html>
